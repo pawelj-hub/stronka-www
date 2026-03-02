@@ -1,0 +1,71 @@
+.navbar{
+    margin: 20px;
+}
+ul li{
+    display: inline-block;
+    float: right;
+    margin-right: 50px;
+    margin: 20px 20px;
+
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+ul li a:hover{
+    text-decoration: none;
+    color: white;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+}
+.nav-container{
+    display: inline;
+    max-width: 1200px;
+    align-items: center;
+    justify-content: space-between;
+}
+#logo img{
+    width: 10px;
+    height: auto;
+}
+img{
+    width: 40px;
+    border-radius: 15px;
+}
+.zdj{
+    width: 200px;
+}
+.galeria{
+    width: 200px;
+    height: 200px;
+    margin: 40px;
+}
+.galeria:hover{
+    transition: 0.3s;
+    transform: scale(1.2);
+}
+.mapa{
+    width: 1000px;
+    height: 500px;
+}
+section{
+    padding-left: 55%;
+    margin-top: 20%;
+}
+body{
+background: #000000;
+background: linear-gradient(90deg, rgba(0, 0, 0, 1) 0%, rgba(87, 199, 133, 1) 50%, rgba(237, 221, 83, 1) 100%);
+    background-size: 1000%;
+    color: rgb(204, 204, 204);
+    font-size: x-large;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+footer{
+    background-color: rgb(209, 17, 17);
+    color: rgb(239, 239, 239);
+}
+h1{
+    color: white;
+}
